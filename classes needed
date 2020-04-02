@@ -1,0 +1,16 @@
+classes needed
+
+submitButtuon
+	submits title and contents to db, with a valid timestamp
+	
+
+blog
+	gets titles and contents from db, post valid timestamp
+	show entries in chronological order
+
+editButton
+	allows to UPDATE blog posts, updates in db
+
+deleteButton
+
+admin login to update/post any blog entries

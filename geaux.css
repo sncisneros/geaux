@@ -1,0 +1,65 @@
+body{
+	background-image: url("images/pinkBgrnd.jpg");
+	background-attachment: fixed;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.6);
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #ff69b4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Great Vibes', Helvetica, sans-serif;
+}
+
+#navbar a:hover {
+  color: #dda0dd;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Great Vibes', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 90px;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.5); ;
+}
+
+h2{
+	font-family: 'Great Vibes', Helvetica, sans-serif;
+	color: white;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.5);
+	text-transform: lowercase;
+	font-size: 55px;
+}
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffb3cc;
+  opacity: 0.7;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color: DarkSlateGray;
+	padding: 20px;
+}
